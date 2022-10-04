@@ -1,0 +1,11 @@
+{ 
+    "minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "dev-main",
+        "components/jquery": "^3.6",
+        "paymentsds/mpesa": "dev-develop",
+        "tecnickcom/tcpdf": "dev-main",
+        "datatables/datatables": "dev-master",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
