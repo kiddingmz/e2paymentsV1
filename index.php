@@ -20,7 +20,7 @@
     if(!empty($_POST['celular']) && !empty($_POST['valor']) &&!empty($_POST['ref'])){
 
     	$payloadPay = '{
-	        "client_id": "9614458f-470f-4551-9101-42e5ef2a1070",
+	        "client_id": "'.constant('CLID').'",
 	        "phone": "'.addslashes($_POST['celular']).'",
 	        "amount": "'.addslashes($_POST['valor']).'",
 	        "reference": "'.addslashes($_POST['ref']).'"
